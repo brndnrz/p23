@@ -20,7 +20,8 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
-        <Featured />
+        {/* create animated slide show of portfolio products */}
+        {/* <Featured /> */}
         <section className="mt-20 w-full  lg:grid lg:grid-cols-2 lg:w-[90%] mx-auto flex flex-col gap-14 h-auto p-6">
           {data.map((item) => {
             return <Project key={item.id} project={item} />;

@@ -28,7 +28,7 @@ const About = () => {
         <h3 className="mb-6 text-2xl md:text-3xl lg:text-4xl xl:text-5xl ">
           Things I Love
         </h3>
-        <div className="">
+        <div className=" lg:max-w-[50%] mx-auto">
           <Featured />
         </div>
       </section>

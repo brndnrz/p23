@@ -1,15 +1,15 @@
-import Link from "next/link";
+// import Link from "next/link";
 import React from "react";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 
 const Featured = () => {
   return (
     <div className="w-full h-auto md:w-[90%]   mx-auto px-4 py-2  overflow-hidden  flex justify-center ">
-      <Link href="/projects/1">
+      <a href="https://atap.google.com/soli/" target="_blank">
         <div className="relative inline-block rounded-2xl overflow-hidden group max-h-[600px]">
           <div className="invisible group-hover:visible absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-[#fe7a11]/40 rounded-2xl flex flex-col justify-end  px-8 py-4 text-4xl   ">
             <div className="flex justify-center ">
-              <h3 className="text-white ">Google Pulse</h3>
+              <h3 className="text-white ">Soli</h3>
               <BsArrowUpRightCircle className="ml-auto text-white" />
             </div>
             <p className="self-end text-lg text-white">Explore Project</p>
@@ -22,7 +22,7 @@ const Featured = () => {
             className="object-cover w-full h-full rounded-2xl"
           ></video>
         </div>
-      </Link>
+      </a>
     </div>
   );
 };

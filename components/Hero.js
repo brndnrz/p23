@@ -30,7 +30,7 @@ const Hero = () => {
           <div className="rounded-2xl bg-cardGrey h-[70%] text-left p-12 flex  justify-center items-center">
             <h3 className="w-full sm:text-2xl lg:text-3xl font-syne ">
               Total Following{" "}
-              <span className="text-4xl font-semibold font-work">250K</span>
+              <span className="text-4xl font-semibold font-work">1k</span>
             </h3>
           </div>
           <div className="flex items-center justify-center bg-cardGrey rounded-2xl gap-4 sm:gap-8 h-[30%] text-2xl">
