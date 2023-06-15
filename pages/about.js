@@ -20,7 +20,7 @@ const About = () => {
             About Me
           </h3>
           <p className="px-12 pt-0 pb-6 text-textBlack/60">
-            {`I am a software developer and digital designer with 5+ years experience building web apps and engaging brands. Outside of working with clients and making digital art, I enjoy video games, following college football (Hook 'Em!), and reading science fiction.`}
+            {`I'm a Software Developer and Digital Designer with 6+ years experience building web apps and engaging brands. When I'm not working, I enjoy video games, following college football (Hook 'Em!), and reading science fiction.`}
           </p>
         </div>
       </div>
