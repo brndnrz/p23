@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { BsArrowUpRightCircle } from "react-icons/bs";
+import { BsArrowRightCircle } from "react-icons/bs";
 
 const Project = ({ project }) => {
   return (
@@ -26,7 +26,7 @@ const Project = ({ project }) => {
         </div>
         <div className="absolute invisible group-hover:visible top-0 left-0 w-full h-full  rounded-2xl bg-gradient-to-b from-transparent to-[#fe7a11]/70 flex justify-center items-center gap-6 backdrop-blur-sm">
           <h3 className="text-[50px] text-white/80 lg:text-[75px]">Explore</h3>
-          <BsArrowUpRightCircle className="text-[50px] text-white/80 lg:text-[75px]" />
+          <BsArrowRightCircle className="text-[50px] text-white/80 lg:text-[75px]" />
         </div>
       </div>
     </Link>

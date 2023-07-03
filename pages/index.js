@@ -2,7 +2,7 @@ import Head from "next/head";
 import Hero from "@/components/Hero";
 import Featured from "@/components/Featured";
 import Link from "next/link";
-import { BsArrowUpRightCircle } from "react-icons/bs";
+import { BsArrowRightCircle } from "react-icons/bs";
 import data from "@/data";
 import Project from "@/components/Project";
 
@@ -31,7 +31,7 @@ export default function Home() {
           <Link href="/all">
             <button className="px-4 py-2 flex  gap-2 justify-center items-center rounded-2xl bg-cardGrey hover:bg-gradient-to-b from-[#ff9838] to-[#fe7a11]  hover:text-white hover:duration-200">
               <p className="">Work Archive</p>
-              <BsArrowUpRightCircle />
+              <BsArrowRightCircle />
             </button>
           </Link>
         </section>
